@@ -1,0 +1,67 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+a {
+  text-decoration: none;
+  color: #4a3428;
+}
+
+/* 전체 페이지 */
+.wrap {
+  width: 1200px;
+  height: 1800px;
+  background-color: #f5f1e6;
+  margin: 0 auto;
+}
+/* 헤더 */
+header {
+  width: 100%;
+  height: 120px;
+  /* background-color: pink; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 3px solid #dfdddd;
+}
+/* 로고 */
+.logo {
+  display: flex;
+  width: fit-content;
+  height: 100%;
+  padding: 0 20px;
+  /* background-color: red; */
+}
+/* 카테고리 */
+nav {
+  width: 600px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  /* background: skyblue; */
+}
+nav a {
+  width: calc(100% / 5 - 10px);
+  font-weight: bold;
+  margin: 0 5px;
+  text-align: center;
+  /* background-color: red; */
+}
+/* 메인 */
+.main {
+  padding: 30px;
+  background-color: pink;
+}
+/* 상단 */
+h2 {
+  margin-bottom: 30px;
+}
+/* 상단설명 */
+.main-content p {
+  background-color: plum;
+  margin-bottom: 30px;
+}
+
+/* 하단 */
+/* 푸터 */
